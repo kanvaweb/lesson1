@@ -1,2 +1,5 @@
-﻿// Это моя превая программа на C#
-Console.WriteLine("3 Hello, World!");
+﻿// Это моя вторая программа C#
+Console.Write("Введите Ваше имя: ");
+string username = Console.ReadLine();
+Console.Write("Привет, ");
+Console.Write(username);
